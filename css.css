@@ -20,7 +20,7 @@ body {
     object-fit: contain;
     display: block;
     /* height NON deve essere auto, ma viene gestita dallo script */
-    max-width: none; /* Rimuovi il limite sulla larghezza */
+    max-width: 100%; /* Rimuovi il limite sulla larghezza */
 }
 
 

@@ -5,8 +5,8 @@ body {
 
 #intro {
     display: flex;
-    align-items: center; /* allinea i figli in altezza */
-    gap: 32px; /* spazio tra testo e immagine */
+    align-items: stretch; 
+    gap: 32px; 
 }
 
 

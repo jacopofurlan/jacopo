@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Jacopo Furlan</title>
+        <meta charset="utf-8" />
+        <link 
+            rel="stylesheet" href="css.css"
+        />
+    </head>
+
+    <body>
+        <header id="header">
+            
+        </header>
+        
+        <section id="intro">
+            <div id="content">
+                <h2>Jacopo Furlan</h2>
+                <p> 
+                    Born in Este, Italy.   
+                </p>
+                <p id="present">
+                    Ph. D. Student in Computer Science, member of the
+                    <a href="https://lipn.univ-paris13.fr/">LIPN</a> 
+                    (Laboratoire d&#39;Informatique de Paris Nord), at the
+                    <a href="https://www.univ-spn.fr/">University of Sorbonne Paris Nord</a>
+                    in France.
+                </p>
+                <p id="past">
+                    I studied Mathematics at the 
+                    <a href="https://www.unipd.it">University of Padova</a>, 
+                    then I attended Master courses on Logic, Mathematics and Computer Science between 
+                    <a href="https://www.uniroma3.it">University of Roma 3</a> 
+                    and <a href="https://www.univ-amu.fr">University of Aix-Marseille</a>. 
+                </p>
+                <p>
+                    I give exercise classes at the
+                    <a href="https://galilee.univ-paris13.fr/">Institut Galilee</a>.
+                </p>
+                <p>
+                    Here it is my <a href="documents/cv/CV.pdf" download>CV</a>.
+                </p>    
+            </div>
+            <div id="id_image">
+              <img src="images/jacopo.png" alt="Jacopo Furlan's photo"/>
+            </div>
+        </section>
+
+        <section id="research">
+            <h2>Research</h2>
+            <h4>Realizability</h4>
+            <p>
+                My main research field is classical realizability. 
+                I study its application to classical set theory.
+            </p>
+            <p>
+                My thesis' goal is to find an explicit realizer for the Axiom of Choice,
+                analysing Krivine's realizability models for ZF. 
+                At the same time, I try to realize other relevant principles which arise from set theory,
+                like the Partition Principle or the Axiom of Constructivity.
+            </p>
+            <h4>
+                &lambda;-calculus
+            </h4>
+            <p>
+                As I deal with the computational content of (classical) mathematics, 
+                I am also interested in &lambda;-calculus and its extentions.
+            </p>
+            <h4>Historical stuff</h4>
+            <p>
+                I am also engaged into tracing back the development of realizability. 
+                This technique was conceived in 1945 by S.C.Kleene, and it has been applied 
+                in several - and more important, different - forms since then. 
+            </p>
+            <div class="pub-columns">
+                <div class="pub-col">
+                    <h3>Publications</h3>
+                    <figure>
+                        <img src="images/kermit.gif" width="300" height="168" frameBorder="0" alt="Kermit the Frog writing my papers">
+                        <figcaption> Still working on them 😁 <a href="https://giphy.com/gifs/XIqCQx02E1U9W"> via GIPHY</a>  </figcaption> 
+                    </figure>
+                </div>
+                <div class="pub-col">
+                    <h3>Unpublications</h3>
+                    <figure>
+                        <img src="images/kermit.gif" width="300" height="168" frameBorder="0" alt="Kermit the Frog writing my papers">
+                        <figcaption> Still working on them 😁 <a href="https://giphy.com/gifs/XIqCQx02E1U9W"> via GIPHY</a>  </figcaption> 
+                    </figure>
+                </div>
+            </div>
+            <h3>Talks</h3>    
+            <ul>
+                <li>“Bar Induction, Continuum Hypothesis and combinatorial principles” - <a href="https://conferences.cirm-math.fr/3577.html">Realizability Workshop</a> (<a href="documents/talks/CIRMreal-talk.pdf" download>slides</a>) </li>
+                <li>“The Art of Realizability” - <a href="https://lipn.univ-paris13.fr/TLLA/2024/">TLLA '24</a> (<a href="documents/talks/TLLA_talk.pdf" download>slides</a>)[<a href="documents/abstracts/Furlan-TLLA24.pdf">abstract</a>]</li>
+                <li>“Realizability and her Brothers” - MathSTIC '24 (<a href="documents/talks/MathSTIC24_talk.pdf" download>slides</a>)</li>
+          </ul>            
+        </section>
+
+
+        <footer id="footer">
+
+        </footer>
+
+        <!--Scripts-->
+        <!-- Inserisci questo script prima della chiusura di </body> -->
+        <script>
+        window.addEventListener('DOMContentLoaded', function() {
+            var content = document.getElementById('content');
+            var img = document.querySelector('#id_image img');
+            if (content && img) {
+                img.style.height = content.offsetHeight + 'px';
+            }
+        });
+
+        // Aggiorna l'altezza anche al resize della finestra
+        window.addEventListener('resize', function() {
+            var content = document.getElementById('content');
+            var img = document.querySelector('#id_image img');
+            if (content && img) {
+                img.style.height = content.offsetHeight + 'px';
+            }
+        });
+        </script>
+    </body>
+</html>

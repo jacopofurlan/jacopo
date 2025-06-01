@@ -1,0 +1,63 @@
+body {
+    font-family: 'Helvetica';
+    margin: 5vw 20vw;
+}
+
+#intro {
+    display: flex;
+    align-items: center; /* allinea i figli in altezza */
+    gap: 32px; /* spazio tra testo e immagine */
+}
+
+
+#id_image {
+    display: flex;
+    align-items: stretch; 
+}
+
+#id_image img {
+    width: auto;
+    object-fit: contain;
+    display: block;
+    /* height NON deve essere auto, ma viene gestita dallo script */
+    max-width: none; /* Rimuovi il limite sulla larghezza */
+}
+
+
+hr.zigzag-line {
+    border: none;
+    height: 50px;
+    width: 100%;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 5' preserveAspectRatio='none'%3E%3Cpolyline points='0,5 2.5,0 5,5 7.5,0 10,5 12.5,0 15,5 17.5,0 20,5 22.5,0 25,5 27.5,0 30,5 32.5,0 35,5 37.5,0 40,5 42.5,0 45,5 47.5,0 50,5 52.5,0 55,5 57.5,0 60,5 62.5,0 65,5 67.5,0 70,5 72.5,0 75,5 77.5,0 80,5 82.5,0 85,5 87.5,0 90,5 92.5,0 95,5 97.5,0 100,5' stroke='black' stroke-width='0.2' fill='none'/%3E%3C/svg%3E");
+    background-size: cover;
+}
+
+hr.wavy-line {
+    border: none;
+    height: 100px; /* Spessore della linea */
+    width: 100%;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 10' preserveAspectRatio='none'%3E%3Cpath d='M 0 5 Q 2.5 0, 5 5 T 10 5 T 15 5 T 20 5 T 25 5 T 30 5 T 35 5 T 40 5 T 45 5 T 50 5 T 55 5 T 60 5 T 65 5 T 70 5 T 75 5 T 80 5 T 85 5 T 90 5 T 95 5 T 100 5' stroke='black' stroke-width='0.2' fill='none'/%3E%3C/svg%3E");
+    background-size: cover;
+}
+
+hr.jagged-line {
+    border: none;
+    height: 50px; /* Altezza della linea */
+    width: 100%;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 10' preserveAspectRatio='none'%3E%3Cpath d='M 0 10 Q 2.5 0, 5 5 T 10 10 Q 12.5 0, 15 5 T 20 10 Q 22.5 0, 25 5 T 30 10 Q 32.5 0, 35 5 T 40 10 Q 42.5 0, 45 5 T 50 10 Q 52.5 0, 55 5 T 60 10 Q 62.5 0, 65 5 T 70 10 Q 72.5 0, 75 5 T 80 10 Q 82.5 0, 85 5 T 90 10 Q 92.5 0, 95 5 T 100 10' stroke='black' stroke-width='0.2' fill='none'/%3E%3C/svg%3E");
+    background-size: cover;
+}
+
+.pub-columns {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 32px;
+}
+
+.pub-col {
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+
+

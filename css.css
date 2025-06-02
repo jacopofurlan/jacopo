@@ -1,4 +1,4 @@
-body {
+ibody {
     font-family: 'Helvetica';
     margin: 5vw 20vw;
 }
@@ -19,7 +19,7 @@ body {
     width: auto;
     object-fit: contain;
     display: block;
-    /* height NON deve essere auto, ma viene gestita dallo script */
+    height: 250px;
     max-width: 100%; /* Rimuovi il limite sulla larghezza */
 }
 

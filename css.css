@@ -48,16 +48,4 @@ hr.jagged-line {
     background-size: cover;
 }
 
-.pub-columns {
-    display: flex;
-    gap: 32px;
-    margin-bottom: 32px;
-}
-
-.pub-col {
-    flex: 1 1 0;
-    min-width: 0;
-}
-
-
 

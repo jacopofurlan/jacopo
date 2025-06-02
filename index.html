@@ -90,25 +90,5 @@
         <footer id="footer">
 
         </footer>
-
-        <!--Scripts-->
-        <script>
-        window.addEventListener('DOMContentLoaded', function() {
-            var content = document.getElementById('content');
-            var img = document.querySelector('#id_image img');
-            if (content && img) {
-                img.style.height = content.offsetHeight + 'px';
-            }
-        });
-
-        // Aggiorna l'altezza anche al resize della finestra
-        window.addEventListener('resize', function() {
-            var content = document.getElementById('content');
-            var img = document.querySelector('#id_image img');
-            if (content && img) {
-                img.style.height = content.offsetHeight + 'px';
-            }
-        });
-        </script>
     </body>
 </html>

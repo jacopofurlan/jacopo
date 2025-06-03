@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#word-display {
+  margin-top: 0;
+  text-align: center;
+  font-size: 10vw;
+  font-weight: 400;
+  white-space: pre-line;
+}
+
+#home-btn {
+  width: 90px;
+  height: 40px;
+  padding: 0;
+  font-size: 1.1rem;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.sottotitolo {
+  display: block;
+  font-size: 0.3em;
+  font-weight: normal;
+  margin-top: 0.2em;
+}

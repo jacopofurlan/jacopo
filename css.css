@@ -1,12 +1,12 @@
 body {
-    font-family: 'Helvetica';
+    font-family: 'Lato', sans-serif;
     margin: 5vw 20vw;
 }
 
 #intro {
     display: flex;
-    align-items: stretch; 
-    gap: 32px; 
+    align-items: center; /* allinea i figli in altezza */
+    gap: 32px; /* spazio tra testo e immagine */
 }
 
 
@@ -19,8 +19,8 @@ body {
     width: auto;
     object-fit: contain;
     display: block;
-    height: 300px;
-    max-width: 100%; /* Rimuovi il limite sulla larghezza */
+    max-height: 300px;
+    max-width: none; /* Rimuovi il limite sulla larghezza */
 }
 
 
@@ -32,20 +32,5 @@ hr.zigzag-line {
     background-size: cover;
 }
 
-hr.wavy-line {
-    border: none;
-    height: 100px; /* Spessore della linea */
-    width: 100%;
-    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 10' preserveAspectRatio='none'%3E%3Cpath d='M 0 5 Q 2.5 0, 5 5 T 10 5 T 15 5 T 20 5 T 25 5 T 30 5 T 35 5 T 40 5 T 45 5 T 50 5 T 55 5 T 60 5 T 65 5 T 70 5 T 75 5 T 80 5 T 85 5 T 90 5 T 95 5 T 100 5' stroke='black' stroke-width='0.2' fill='none'/%3E%3C/svg%3E");
-    background-size: cover;
-}
-
-hr.jagged-line {
-    border: none;
-    height: 50px; /* Altezza della linea */
-    width: 100%;
-    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 10' preserveAspectRatio='none'%3E%3Cpath d='M 0 10 Q 2.5 0, 5 5 T 10 10 Q 12.5 0, 15 5 T 20 10 Q 22.5 0, 25 5 T 30 10 Q 32.5 0, 35 5 T 40 10 Q 42.5 0, 45 5 T 50 10 Q 52.5 0, 55 5 T 60 10 Q 62.5 0, 65 5 T 70 10 Q 72.5 0, 75 5 T 80 10 Q 82.5 0, 85 5 T 90 10 Q 92.5 0, 95 5 T 100 10' stroke='black' stroke-width='0.2' fill='none'/%3E%3C/svg%3E");
-    background-size: cover;
-}
 
 

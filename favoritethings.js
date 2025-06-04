@@ -10,7 +10,10 @@ const parole = [
   { testo: "The Muppet<br>Show", coloreTesto: "#91042C", sfondo: "#06014D", font: "'Noto Serif JP', serif", immagineSfondo: "url(images/the_muppet_show.png)" },
   { testo: "鍵", coloreTesto: "#8C9A98", sfondo: "#824444", font: "'Noto Serif JP', serif" },
   { testo: "DOCTOR WHO", coloreTesto: "#F0F0F0", sfondo: "#003B6F", font: "'Futura', serif" },
-  { testo: 'Sonata op.111<br><span class="sottotitolo">(L. v. Beethoven)</span>', coloreTesto: "#001CD1", sfondo: "#A8DA1F", font: "'Crimson Text', serif" }
+  { testo: 'Sonata op.111<br><span class="sottotitolo">L. v. Beethoven</span>', coloreTesto: "#001CD1", sfondo: "#A8DA1F", font: "'Crimson Text', serif" },
+  { testo: 'Liebestraum n° 3<br><span class="sottotitolo">F. Liszt</span>', coloreTesto: "#7416A7", sfondo: "#17C2D5", font: "'Noto Serif JP', serif", font: "'Crimson Text', serif" },
+  { testo: 'Abbey Road<br><span class="sottotitolo">The Beatles</span>', coloreTesto: "#91042C", sfondo: "#06014D", font: "'Noto Serif JP', serif", font: "'Crimson Text', serif" },
+  { testo: 'The Art of Fugue<br><span class="sottotitolo">J. S. Bach</span>', coloreTesto: "#165376", sfondo: "#90DAA5", font: "'Noto Serif JP', serif", font: "'Crimson Text', serif" }
 ];
 
 const parolaSpeciale = {

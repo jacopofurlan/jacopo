@@ -1,0 +1,30 @@
+/* Nasconde la foto su mobile */
+#id_image {
+  display: none !important;
+}
+
+/* Riduce tutti i margini e padding (bordi) all'1% */
+body, #content, #intro, #research, #footer, header, section, div, ul, li, figure, img, h1, h2, h3, h4, h5, h6, p, a {
+  margin: 1% !important;
+  padding: 1% !important;
+  box-sizing: border-box;
+}
+
+/* Migliora la leggibilità su mobile */
+body {
+  font-size: 1.1em;
+  line-height: 1.4;
+}
+
+/* Rende il layout più fluido */
+#content, #intro, #research, #footer, section {
+  width: 98vw;
+  max-width: 100vw;
+}
+
+/* Adatta le immagini eventualmente presenti */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

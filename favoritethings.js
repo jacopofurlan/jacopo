@@ -12,8 +12,9 @@ const parole = [
   { testo: "DOCTOR WHO", coloreTesto: "#F0F0F0", sfondo: "#003B6F", font: "'Futura', serif" },
   { testo: 'Sonata op.111<br><span class="sottotitolo">L. v. Beethoven</span>', coloreTesto: "#001CD1", sfondo: "#A8DA1F", font: "'Crimson Text', serif" },
   { testo: 'Liebestraum n° 3<br><span class="sottotitolo">F. Liszt</span>', coloreTesto: "#7416A7", sfondo: "#17C2D5", font: "'Noto Serif JP', serif", font: "'Crimson Text', serif" },
-  { testo: 'Abbey Road<br><span class="sottotitolo">The Beatles</span>', coloreTesto: "#91042C", sfondo: "#06014D", font: "'Noto Serif JP', serif", font: "'Crimson Text', serif" },
+  { testo: 'Abbey Road<br><span class="sottotitolo">The Beatles</span>', coloreTesto: "#FFF700", sfondo: "#20CCE2", font: "'Noto Serif JP', serif", font: "'Boldonse', system-ui" },
   { testo: 'The Art of Fugue<br><span class="sottotitolo">J. S. Bach</span>', coloreTesto: "#165376", sfondo: "#90DAA5", font: "'Noto Serif JP', serif", font: "'Crimson Text', serif" }
+
 ];
 
 const parolaSpeciale = {
@@ -102,5 +103,13 @@ document.addEventListener('keydown', function(event) {
       font: "'Noto Sans Symbols 2', sans-serif"
     });
     indiceParola = 0; // resetta l'indice se vuoi ripartire dall'inizio
+  }
+});
+
+// Cambia parola al tocco su mobile
+document.addEventListener('touchstart', function(event) {
+  // Evita che il tocco sul bottone "Home" cambi parola
+  if (event.target.id !== 'home-btn') {
+    mostraNuovaParola();
   }
 });

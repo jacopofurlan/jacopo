@@ -3,17 +3,20 @@
   display: none !important;
 }
 
-/* Riduce tutti i margini e padding (bordi) all'1% */
-body, #content, #intro, #research, #footer, header, section, div, ul, li, figure, img, h1, h2, h3, h4, h5, h6, p, a {
-  margin: 1% !important;
+/* Riduce il margine del body al 5% su mobile */
+body {
+  margin: 5% !important;
   padding: 1% !important;
+  font-size: 1.1em;
+  line-height: 1.4;
   box-sizing: border-box;
 }
 
-/* Migliora la leggibilità su mobile */
-body {
-  font-size: 1.1em;
-  line-height: 1.4;
+/* Riduce tutti gli altri margini e padding all'1% */
+#content, #intro, #research, #footer, header, section, div, ul, li, figure, img, h1, h2, h3, h4, h5, h6, p, a {
+  margin: 1% !important;
+  padding: 1% !important;
+  box-sizing: border-box;
 }
 
 /* Rende il layout più fluido */

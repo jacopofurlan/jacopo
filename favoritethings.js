@@ -37,7 +37,7 @@ const parolaSpeciale = {
 };
 
 // Opzione: true = parole in ordine, false = casuali
-const paroleInOrdine = true;
+const paroleInOrdine = false;
 
 let clickCounter = 0;
 let indiceParola = 0;

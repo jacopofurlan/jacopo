@@ -25,7 +25,7 @@ const parole = [
   { testo: 'Abstract<br><span class="sottotitolo">(Tv Series)</span>', coloreTesto: "#ffffff", sfondo: "#000000", font: "'Montserrat', sans-serif", immagineSfondo: "url(images/abstract.png)" },
   { testo: 'Spanish Rapsody<br><span class="sottotitolo">F. Liszt</span>', coloreTesto: "#C22020", sfondo: "#DAB627", font: "'Crimson Text', serif" },
   { testo: "Favignana", coloreTesto: "#ffffff", sfondo: "#E6FFF9", font: "'Chemre', sans-serif"},
-  { testo: "Spezzatino<br>con patete<br>e<br>polenta", coloreTesto: "#622A2A", sfondo: "#F5DE32", font: "'Gothic Haunt', sans-serif"},
+  //{ testo: "Spezzatino<br>con patete<br>e<br>polenta", coloreTesto: "#622A2A", sfondo: "#F5DE32", font: "'Gothic Haunt', sans-serif"},
   { testo: 'Parole Crociate<sup>®</sup><br><span class="sottotitolo">(La Settimana Enigmistica)</span>', coloreTesto: "#B6262F", sfondo: "#3E8C78", font: "'Garamond', serif"}
 ];
 

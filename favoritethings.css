@@ -31,3 +31,47 @@ body {
   font-weight: normal;
   margin-top: 0.2em;
 }
+
+/* Fonts */
+
+@font-face {
+  font-family: 'ITC Avant Garde Gothic';
+  src: url('fonts/avantgardegothic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Matisse EB';
+  src: url('fonts/EVA-Matisse_Classic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mazeline';
+  src: url(fonts/MazeLine-Free.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'cakezombie';
+  src: url(fonts/Cakezombie-axeva.otf) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Guitarism';
+  src: url(fonts/D3Guitarism-eZdg.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ZuberStone';
+  src: url(fonts/ZuberStone-AEEg.ttf) format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}

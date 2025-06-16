@@ -1,3 +1,13 @@
+header {
+  text-align: center;
+  margin-bottom: 1em;
+}
+header h1 {
+  font-size: 2em;
+  margin: 0em 0;
+  padding: 0em 0;
+}
+
 body {
     font-family: 'Helvetica', sans-serif;
     margin: 5vw 20vw;
@@ -9,6 +19,9 @@ body {
     gap: 32px; /* spazio tra testo e immagine */
 }
 
+#mobile-intro {
+    display: none; /* Nasconde il testo di presentazione su mobile */
+}
 
 #id_image {
     display: flex;

@@ -43,6 +43,14 @@ a {
     color: black;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+#favorite:hover {
+    color: #f30000;
+}
+
 hr.zigzag-line {
     border: none;
     height: 50px;

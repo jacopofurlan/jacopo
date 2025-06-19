@@ -25,7 +25,7 @@ const parole = [
   { testo: 'Abstract<br><span class="sottotitolo">(Tv Series)</span>', coloreTesto: "#ffffff", sfondo: "#000000", font: "'Montserrat', sans-serif", immagineSfondo: "url(images/abstract.png)", fontWeight: "bold" },
   { testo: 'Spanish Rapsody<br><span class="sottotitolo">F. Liszt</span>', coloreTesto: "#C22020", sfondo: "#DAB627", font: "'Crimson Text', serif", fontWeight: "normal" },
   { testo: "Favignana", coloreTesto: "#FFB699", sfondo: "#5EC0B8", font: "'Chemre', sans-serif", fontWeight: "normal" },
-  { testo: 'Spezzatino<br><span class="sottotitolo">con patete<br>e polenta</span>', coloreTesto: "#622A2A", sfondo: "#F5DE32", font: "'cakezombie', system-ui", fontWeight: "bold" },
+  { testo: 'Spezzatino<br><span class="sottotitolo">con patate<br>e polenta</span>', coloreTesto: "#622A2A", sfondo: "#F5DE32", font: "'cakezombie', system-ui", fontWeight: "bold" },
   { testo: 'Parole Crociate<sup>®</sup><br><span class="sottotitolo">(La Settimana Enigmistica)</span>', coloreTesto: "#B6262F", sfondo: "#3E8C78", font: "'Garamond', serif", fontWeight: "normal" },
   { testo: 'LOVE<span class="sottotitolo">Gaspar Noe</span>', coloreTesto: "#e2612e", sfondo: "#961e15", font: "'Futura', sans-serif", fontWeight: "bold" },
   { testo: 'MATRIX', coloreTesto: "#000000", sfondo: "#008F11", font: "'Matrix', sans-serif", fontWeight: "bold" },

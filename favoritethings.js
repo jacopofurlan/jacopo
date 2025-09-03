@@ -46,7 +46,7 @@ const parole = [
   { testo: 'Passatelli<br><span class="sottotitolo">(in brodo)</span>', coloreTesto: "#9A4949", sfondo: "#F3E9C8", font: "'Groovy Maniac', sans-serif", fontWeight: "bold" },
   { testo: 'Alfred Jarry', coloreTesto: "#D6B335", sfondo: "#1600BD", font: "'Bicycle', sans-serif", fontWeight: "bold" },
   { testo: '新世紀<br>エヴァンゲリオン', coloreTesto: "#ffffff", sfondo: "#", font: "'Matisse EB', serif", immagineSfondo: "url(images/eva.png)", fontWeight: "900" },
-  { testo: 'Monty<br>Python', coloreTesto: "#000000", sfondo: "#4149B3", font: "'Ewert', serif", fontWeight: "bold" },
+  { testo: 'Monty<br>Python', coloreTesto: "#000000", sfondo: "#4149B3", font: "'Circus', serif", fontWeight: "bold" },
   { testo: 'The Third<br>Policeman', coloreTesto: "#090839", sfondo: "#545036", font: "'Bicycle', sans-serif", fontWeight: "bold" },
   { testo: 'Hungarian Dance no. 4<span class="sottotitolo">J. Brahms</span>', coloreTesto: "#3D1B4E", sfondo: "#FFBAD0", font: "'Crimson Text', serif", fontWeight: "normal" }
 ];
